@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace MODUL7_GGS
+{
+    public class Program {
+        public static void Main(string[] args) {
+            var dataFilm = new FilmFavorite_103022400008();
+            dataFilm.ReadJSON();
+        }
+    }
+}
